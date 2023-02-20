@@ -1,0 +1,28 @@
+<html>
+    <select id="par">
+        <option value="3">Par 3</option>
+        <option value="4">Par 4</option>
+        <option value="5">Par 5</option>
+    </select>
+    <label for="score">Số gậy</label>
+    <input type="number" id="score" value="">
+    <button onclick="submitHandler()">Submit Điểm</button>
+
+</html>
+
+<script>
+    const submitHandler = () => {
+        let par = document.getElementById("par").value;
+        let score = document.getElementById("score").value;
+        if(score < 1) {
+            alert("Score must be")
+        }
+        else if(score == 1) {
+            alert("hole in one")
+        }
+        if(score == par - 1) {
+            alert("Birdy")
+        }
+        switch(score) {}
+    }
+</script>   
