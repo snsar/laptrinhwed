@@ -1,1 +1,4 @@
-## [*Demo*](https://github.com/snsar/laptrinhwed/tree/main/bootstrap/index.html)
+# Bai tap Bootstrap
+
+## [*Demo*](https://snsar.github.io/laptrinhwed/bootstrap)
+
